@@ -5,7 +5,9 @@
   "description": "Minimal runnable entry point",
   "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "lint": "node --check src/main.js",
+    "test": "node --test test/"
   },
   "license": "CC0-1.0"
 }
