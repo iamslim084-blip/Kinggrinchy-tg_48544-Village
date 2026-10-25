@@ -1,0 +1,11 @@
+{
+  "name": "kinggrinchy-tg-48544-village",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal runnable entry point",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "license": "CC0-1.0"
+}
