@@ -6,8 +6,16 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js",
-    "lint": "node --check src/main.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "node --test test/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
   },
   "license": "CC0-1.0"
 }
