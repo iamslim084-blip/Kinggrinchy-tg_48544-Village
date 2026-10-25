@@ -4,4 +4,8 @@ function main() {
   console.log('Kinggrinchy-tg_48544-Village started');
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { main };

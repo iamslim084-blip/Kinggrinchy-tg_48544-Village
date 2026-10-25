@@ -14,4 +14,8 @@ module.exports = [
       globals: { ...globals.node },
     },
   },
+  {
+    files: ['**/*.test.js'],
+    languageOptions: { globals: { ...globals.node, ...globals.jest } },
+  },
 ];
