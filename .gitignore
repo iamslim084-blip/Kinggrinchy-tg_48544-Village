@@ -5,6 +5,7 @@ Thumbs.db
 # Editor / IDE files
 .idea/
 .vscode/
+*.swp
 
 # Logs
 *.log
@@ -15,5 +16,9 @@ logs/
 .env.*
 !.env.example
 
-# Language-specific entries
-# Add entries here once a stack is chosen (e.g. node_modules/, __pycache__/, build output).
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
