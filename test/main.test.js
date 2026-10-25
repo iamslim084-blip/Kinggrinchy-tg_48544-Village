@@ -1,8 +1,3 @@
 'use strict';
 
-const test = require('node:test');
-const assert = require('node:assert');
-
-test('placeholder', () => {
-  assert.strictEqual(1 + 1, 2);
-});
+// Tests now live next to the source in src/ (see src/main.test.js) and run with Jest.
